@@ -6,8 +6,10 @@ body {
   padding: 0;
 }
 
+/*Barra de navegação*/
+
 nav {
-  width: 100vw;
+  width: 100%;
   height: 10%;
   background-color: black;
   display: flex;
@@ -15,11 +17,40 @@ nav {
   align-items: center;
 }
 
+nav .h-menu {
+  display: flex;
+}
+
 nav .h-logo img {
-  height: 10rem;
+  height: 6rem;
+  margin-left: 1rem;
+  margin-top: 1rem
 }
 
 nav .h-itens ul {
+  margin-right: 1rem;
   display: flex;
   gap: 2rem;
+}
+
+nav .h-itens a {
+  transition: .5s ease-in;
+}
+
+nav .h-itens a:hover {
+  color: red;
+}
+
+/*Wrapper*/
+
+header .h-wrapper {
+  height: 100vh;
+  background-color: rgb(46, 36, 36);
+}
+
+.h-wrapper .h-wrapper-image img{
+  height: 100%;
+  width: 100%;
+
+  opacity: 0.2;
 }
