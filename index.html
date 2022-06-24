@@ -10,6 +10,7 @@
   <title>Hades | Página Inicial</title>
 </head>
 <body>
+  <!--Aqui começa o cabeçalho do site: Contendo a barra de navegação e o container principal-->
   <header>
     <nav>
       <div class="h-logo">
@@ -19,8 +20,8 @@
         <div class="h-itens">
           <ul>
             <li><a href="#">Página Inicial</a></li>
-            <li><a href="#">Desenvolvedora</a></li>
-            <li><a href="#">Sobre nós</a></li>
+            <li><a href="https://www.supergiantgames.com/" target="_blank">Desenvolvedora</a></li>
+            <li><a href="https://www.supergiantgames.com/team/" target="_blank">Sobre nós</a></li>
           </ul>
         </div>
         <div class="h-bar-line"></div>
@@ -36,15 +37,46 @@
     </nav>
     <div class="h-wrapper">
       <div class="h-wrapper-image">
-        <img src="assets/img/wallpaper-hades-game.jpg" alt="">
+        <img src="assets/img/wallpaper-hades-game.png" alt="">
       </div>
       <div class="h-wrapper-container">
         <h1 class="top-title-game" style="font-size: 2.5rem;">Hades | Jogo Eletrônico</h1>
-        <p class="game-description" style="text-align: center;">Hades é um jogo eletrônico roguelike de RPG de ação desenvolvido e publicado pela Supergiant Games. Foi lançado para Microsoft Windows, macOS e Nintendo Switch em 17 de setembro de 2020, após um lançamento de acesso antecipado em dezembro de 2018.</p>
+        <p class="game-description" style="text-align: center;">Hades é um jogo roguelike que combina os melhores aspectos dos títulos da Supergiant aclamados pela crítica, incluindo a ação rápida de Bastion, a rica atmosfera e profundidade de Transistor e a narrativa baseada em personagens de Pyre.</p>
+
+        <div class="h-media-video" style="position: relative; display: flex; justify-content: center; align-items: center; margin-top: 5rem; border: 0.2rem solid black;">
+          <iframe width="360rem" height="215rem" src="https://www.youtube.com/embed/Bz8l935Bv0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       
       </div>
-      <div class="h-media-video">
-        <video src=""></video>
+
+      <div class="h-columns-caractere">
+        <div class="h-column-left">
+          <ul>
+            <li>
+              <img src="assets/img/ares-perfil.png" alt="Ares" title="Ares">
+            </li>
+            <li>
+              <img src="assets/img/poseidom-perfil.png" alt="Poseidom" title="Poseidom">
+            </li>
+            <li>
+              <img src="assets/img/zagreus-perfil_1.png" alt="Zagreus" title="Zagreus">
+            </li>
+          </ul>
+        </div>
+  
+        <div class="h-column-right">
+          <ul>
+            <li>
+              <img src="assets/img/nyx-perfil.png" alt="Nyx" title="Nyx">
+            </li>
+            <li>
+              <img src="assets/img/hades-perfil.png" alt="Hades" title="Hades">
+            </li>
+            <li>
+              <img src="assets/img/zeus-perfil.png" alt="Zeus" title="Zeus">
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </header>
@@ -61,18 +93,27 @@
       </div>
       <div class="b-container">
         <div class="products-grid">
-        <div class="itemgrid">
-          <p class="title-game">Jogo Base</p>
-            <img src="assets/img/Hades_PackArt.jpg" alt="Jogo Base"
-            style="width: 100%; height: auto;"></div>
-            <div class="itemgrid"><p style="position: relative; top: 5rem;">	Desafie o deus dos mortos enquanto você batalha para sair do Submundo neste jogo roguelike dos mesmos criadores de Bastion, Transistor e Pyre.</p></dd></div>
-            <div class="itemgrid" style="vertical-align: middle; display: flex; justify-content: center;border-left: 2px solid rgb(80, 19, 19);">
-              <button class="genericButton buy1" style="position: relative; top: 3rem;">COMPRAR</button> <br> </div>
+
+          <div class="itemgrid-image">
+            <p class="title-game">Jogo Base</p>
+              <img src="assets/img/Hades_PackArt.jpg" alt="Jogo Base"
+              style="height: 20rem;">
+          </div>
+
+            <div class="itemgrid-description" style="display: flex; justify-content: center;
+            align-items: center;">
+              <p>	Desafie o deus dos mortos enquanto você batalha para sair do Submundo neste jogo roguelike dos mesmos criadores de Bastion, Transistor e Pyre.</p></dd>
+            </div>
+
+            <div class="itemgrid-button" style="display: flex; flex-direction: column ;justify-content: center; align-items: center; border-left: 2px solid rgb(80, 19, 19); position: relative;">
+              <button class="genericButton buy1">COMPRAR</button>
+              <h5 style="margin-block: 2rem; margin-left: 5rem;">ou</h5>
+              <a href="https://www.supergiantgames.com/games/hades/" target="_blank" class="genericButton buy2">Saiba Mais</a>
+            </div>
+
           </div>
       </div>
     </div>
-
-   
   </main>
 
 

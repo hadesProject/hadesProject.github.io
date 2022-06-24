@@ -101,7 +101,57 @@ nav .h-buy-cart a icon {
   width: 100%;
   position: absolute;
 
-  opacity: 0.2;
+  opacity: 0.5;
+}
+
+/*Coluna de personagens*/
+
+.h-columns-caractere {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*Coluna de personagens coluna direita*/
+
+.h-columns-caractere .h-column-right ul li {
+  position: relative;
+  height: 20rem;
+
+
+}
+
+.h-columns-caractere .h-column-right ul li img{
+  margin: 5rem;
+  height: 20rem;
+  opacity: 0.5;
+
+  transition: transform .5s ease-in-out, opacity .5s ease-in-out;
+}
+
+.h-columns-caractere .h-column-right ul li img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/*Coluna de personagens coluna esquerda*/
+
+.h-columns-caractere .h-column-left ul li {
+  position: relative;
+  height: 20rem;
+}
+
+.h-columns-caractere .h-column-left ul li img{
+  margin: 5rem;
+  height: 20rem;
+  opacity: 0.5;
+
+  transition: transform .5s ease-in-out, opacity .5s ease-in-out;
+}
+
+.h-columns-caractere .h-column-left ul li img:hover {
+  transform: scale(1.1);
+  opacity: 1;
 }
 
 /*Main*/
@@ -138,9 +188,9 @@ main .background-image-main img {
   margin-left: 3rem;
 }
 .products-grid {
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: 14% 63% 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 4%;
 }
 
@@ -151,13 +201,22 @@ main .background-image-main img {
 .buy1 {
   width: 10rem;
   height: 5rem;
+  margin-left: 5rem;
   border-radius: 10%;
   background: white;
   border: 3px solid green;
   color: green;
+  gap: 2rem;
 }
 
 .buy1:hover {
   background: green;
+  color: white;
+}
+
+.buy2 {
+  width: 10rem;
+  height: 5rem;
+  margin-left: 6rem;
   color: white;
 }
