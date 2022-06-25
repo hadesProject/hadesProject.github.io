@@ -220,3 +220,36 @@ main .background-image-main img {
   margin-left: 6rem;
   color: white;
 }
+
+/* Janela flutuante carrinho */
+.cart-window {
+  z-index: 2;
+  position: sticky;
+  position: -webkit-sticky;
+  float: right;
+  right: 2rem;
+  top: 8rem;
+  width: 20rem;
+  height: fit-content;
+  background-color: rgb(59, 7, 7);
+  padding: 2rem;
+}
+
+.close {
+  position: relative;
+  bottom: 7rem;
+  background: rgba(0, 0, 0, 0);
+  width: auto;
+  height: auto;
+}
+
+.continuar1 {
+  width: 10rem;
+  height: 3rem;
+  margin-left: 5rem;
+  border-radius: 10%;
+  background: white;
+  border: 3px solid green;
+  color: rgb(0, 0, 0);
+  gap: 2rem;
+}
