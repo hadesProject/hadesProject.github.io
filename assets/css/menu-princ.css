@@ -53,4 +53,93 @@ header .h-wrapper {
   width: 100%;
 
   opacity: 0.2;
+<<<<<<< Updated upstream
+=======
+}
+/*Itens para compra*/
+
+.b-container {
+  position: absolute;
+  height: fit-content;
+  width: 60%;
+  margin-top: 10rem;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgb(92, 25, 25);
+  font-size: 2rem;
+  padding: 4rem;
+}
+.topics-images {
+  position: absolute;
+  height: fit-content;
+  width: 20%;
+  margin-top: 10rem;
+  margin-left: 3rem;
+}
+.products-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+}
+
+.products-grid .title-game {
+  text-align: center;
+}
+
+.buy1 {
+  width: 10rem;
+  height: 5rem;
+  margin-left: 5rem;
+  border-radius: 10%;
+  background: white;
+  border: 3px solid green;
+  color: green;
+  gap: 2rem;
+}
+
+.buy1:hover {
+  background: green;
+  color: white;
+}
+
+.buy2 {
+  width: 10rem;
+  height: 5rem;
+  margin-left: 6rem;
+  color: white;
+}
+
+/* Janela flutuante carrinho */
+.cart-window {
+  z-index: 2;
+  position: sticky;
+  position: -webkit-sticky;
+  float: right;
+  right: 2rem;
+  top: 8rem;
+  width: 20rem;
+  height: fit-content;
+  background-color: rgb(59, 7, 7);
+  padding: 2rem;
+}
+
+.close {
+  position: relative;
+  bottom: 7rem;
+  background: rgba(0, 0, 0, 0);
+  width: auto;
+  height: auto;
+}
+
+.continuar1 {
+  width: 10rem;
+  height: 3rem;
+  margin-left: 5rem;
+  border-radius: 10%;
+  background: white;
+  border: 3px solid green;
+  color: rgb(0, 0, 0);
+  gap: 2rem;
+>>>>>>> Stashed changes
 }
